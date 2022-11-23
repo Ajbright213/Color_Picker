@@ -25,7 +25,7 @@ class ColorPickerView(View):
         return render(
             request=request,
             template_name='color_picker.html',
-            context={context}    
+            context=context   
         )
 
     def post(self, request):
@@ -47,5 +47,5 @@ class ColorPickerView(View):
         return render(
             request=request,
             template_name='color_picker.html',
-            context={context},    
+            context=context,    
         )
