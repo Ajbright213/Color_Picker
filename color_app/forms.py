@@ -13,12 +13,12 @@ class ColorPickerForm(forms.Form):
         min_value=0,
         max_value=255,
         required=True,
-        label='Red Value'
+        label='Blue Value'
     )
 
     green_amount = forms.IntegerField(
         min_value=0,
         max_value=255,
         required=True,
-        label='Red Value'
+        label='Green Value'
     )
